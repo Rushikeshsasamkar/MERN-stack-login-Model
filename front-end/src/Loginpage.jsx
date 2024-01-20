@@ -31,7 +31,7 @@ const Loginpage = () => {
     }
 
     const handleLoginChange = (e) => {
-        console.log(e.target.value);
+        // console.log(e.target.value);
         const { name, value } = e.target;
         setLoginData(prevData => ({
             ...prevData,
